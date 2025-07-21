@@ -23,9 +23,10 @@ export const useEmployees = () => {
         address: user.address,
         image: user.image,
         department: departments[Math.floor(Math.random() * departments.length)],
-        rating: Math.round((Math.random() * 4 + 1) * 2) / 2, // 1-5 with 0.5 steps
+        rating: Math.round((Math.random() * 4 + 1) * 2) / 2, 
         bio: `Experienced professional with ${Math.floor(Math.random() * 10) + 1} years of experience.`,
         projects: Math.floor(Math.random() * 15) + 5,
+        company:user.company,
         feedback: [
           { date: '2024-01', rating: Math.round((Math.random() * 4 + 1) * 2) / 2 },
           { date: '2024-02', rating: Math.round((Math.random() * 4 + 1) * 2) / 2 },

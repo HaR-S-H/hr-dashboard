@@ -23,7 +23,7 @@ const router = useRouter();
   };
   
   const bookmarked = isBookmarked(employee.id);
-
+  
   return (
     <Card className="hover:shadow-md transition-shadow pl-3 pr-3">
       <div className="flex items-start justify-between">

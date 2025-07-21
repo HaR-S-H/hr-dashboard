@@ -40,11 +40,11 @@ useEffect(() => {
       const matchesDepartment =
         filters.department.length === 0 ||
         filters.department.includes(employee.department);
-      console.log(filters.rating);
+    
       
       const matchesRating =
       filters.rating!==undefined &&  filters.rating?.length === 0 ||
-        employee.rating >= filters.rating[0]; // assuming rating is number
+        employee.rating >= filters.rating[0];
 
       return matchesSearch && matchesDepartment && matchesRating;
     });
