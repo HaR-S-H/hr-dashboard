@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# HR Dashboard
 
-## Getting Started
+A modern and responsive HR dashboard built with **Next.js 14**, **Tailwind CSS**, **ShadCN UI**, and **Chart.js**. This dashboard visualizes employee data, including department-wise average ratings and bookmark trends.
 
-First, run the development server:
+---
 
-```bash
+## 🚀 Setup Instructions
+
+### 1. Clone the repository
+
+git clone https://github.com/your-username/hr-dashboard.git
+cd hr-dashboard
+
+### 2. Install dependencies
+npm install
+
+### 3. Start the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The app will be available at http://localhost:3000.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🔧 Features Implemented
+✅ Department-wise average rating chart using Chart.js
 
-## Learn More
+✅ Bookmark trends visualization (mocked data)
 
-To learn more about Next.js, take a look at the following resources:
+✅ Sidebar layout using ShadCN's AppSidebar
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+✅ Responsive design using Tailwind utility classes
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+✅ Theme switcher (light/dark/system)
 
-## Deploy on Vercel
+✅ Global state management with Context API
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+✅ Clean, maintainable folder structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+### 📍 Home Page
+![home](public/screenshots/home.png)
+
+### 📍 Analytics Page 
+![analytics](public/screenshots/analytics.png)
+
+### 📍 Bookmark Page 
+![bookmark](public/screenshots/bookmarks.png)
+
+### 📍 employee-details Page  
+![employee-details](public/screenshots/employee-details.png)
+
+
